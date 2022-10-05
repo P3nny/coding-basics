@@ -1,0 +1,3 @@
+word = 'Drache'
+
+print(word)

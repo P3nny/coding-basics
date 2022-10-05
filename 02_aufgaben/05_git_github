@@ -1,0 +1,45 @@
+Git und Github:
+Übung mit Quatsch-Kurzgeschichten
+https://education.github.com/git-cheat-sheet-education.pdf
+
+Starting github repo
+
+1. Erzeuge ein neues Verzeichnis mkdir ‘penny_story’
+2. Gehe in das Verzeichnis cd penny_story
+3. Öffne in VS Code und erstelle die Datei story.md, als Inhalt setze den Text fort: “Als Penny an diesem morgen erwachte, …. ”. Ergänze um einen Satz.
+   Datei speichern.
+
+Zurück in der command line: initialisiere das Git repository
+
+command-line
+$ git init
+Initialized empty Git repository in ~/djangogirls/.git/
+$ git config --global user.name "Your Name"
+$ git config --global user.email you@example.com
+
+Überprüfe, ob es Änderungen gab:
+
+command-line
+$ git status
+On branch main
+No commits yet
+Untracked files:
+$ git add .
+$ git commit -m "Add beginning of the story"
+
+Push story/code to github:
+https://tutorial.djangogirls.org/en/deploy/
+On github website add new public repo ‘penny_story’
+git remote add origin https://github.com/<your-github-username>/penny_story.git
+$ git push -u origin main
+
+Sieh nach, ob dein Code bei Github ist, teile deinen Link mit deinem rechten Nachbarn.
+
+Git clone nachbar repo
+Füge einen Satz hinzu
+Git status
+Git add .
+Git commit
+Git push
+
+? Repo für nachbarn freigeben (settings, contibutors)
